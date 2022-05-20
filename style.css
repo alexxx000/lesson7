@@ -230,6 +230,141 @@ a {
     flex-direction: column;
 }
 
+/* section */
+.section-box {
+    width: 1140px;
+    margin-bottom: 20px;
+}
+
+.item-pic {
+    width: 100%;
+}
+
+.h3-item {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.item-par {
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+
+.item-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item-link {
+    display: block;
+    width: 360px;
+}
+
+.txt-box {
+    padding-top: 25px;
+    padding-left: 18px;
+    padding-right: 28px;
+    padding-bottom: 20px;
+}
+
+.h4-txt-box {
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 12px;
+}
+
+.box-description {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 12px;
+
+    color: #5D5D5D;
+}
+
+.box-price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #F16D7F;
+}
+
+.item {
+    width: 360px;
+    position: relative;
+}
+
+.item:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+    width: 360px;
+}
+
+.item:hover .item-pic {
+    filter: brightness(30%);
+}
+
+.add-box {
+    display: none;
+    position: absolute;
+    top: 188px;
+    justify-content: center;
+    width: 100%;
+    pointer-events: none;
+
+}
+
+.add {
+    display: flex;
+    padding: 6px 12px 6px 12px;
+    align-items: center;
+    border: 1px solid#FFFFFF;
+    pointer-events: auto;
+
+
+}
+
+
+.add-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 8px;
+    color: #FFFFFF;
+
+}
+
+.add:hover {
+    box-shadow: 0 0 10px #fff;
+}
+
+.item:hover .add-box {
+    display: flex;
+}
+
+/* section */
 /* footer block1*/
 
 .for-footer {
@@ -390,7 +525,6 @@ a {
 
 
 .fa {
-
     border-radius: 1px;
     font-size: 32px;
     color: #FFFFFF;
