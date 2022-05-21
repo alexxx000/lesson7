@@ -724,7 +724,7 @@ summary {
     display: none;
 }
 
-/*details  Добавить картинку */
+/*Добавить картинку */
 .pc-summary::after {
     content: '\25B6';
     padding-right: 0.5em;
