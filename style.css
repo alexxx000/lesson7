@@ -67,15 +67,15 @@ a {
 
 .addprodukt {
     position: absolute;
-    left: 93%;
-    top: 15%;
+    left: 66%;
+    top: -10%;
 }
 
 .addproduktN {
     position: absolute;
     color: #FFFFFF;
-    left: 93%;
-    top: 15%;
+    left: 83%;
+    top: -10%;
 }
 
 .logo {
@@ -734,7 +734,9 @@ summary {
     content: '\25BC';
 }
 
-
+.pdetails {
+    text-align: center;
+}
 
 .pc-add {
     display: flex;
