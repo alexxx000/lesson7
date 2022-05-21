@@ -24,7 +24,7 @@ a {
     justify-content: space-between;
 }
 
-.header {
+.fullblack {
     background-color: black;
 }
 
@@ -61,13 +61,30 @@ a {
     /* margin-right: 250px; */
 }
 
+.addbasket {
+    position: relative;
+}
+
+.addprodukt {
+    position: absolute;
+    left: 93%;
+    top: 15%;
+}
+
+.addproduktN {
+    position: absolute;
+    color: #FFFFFF;
+    left: 93%;
+    top: 15%;
+}
+
 .logo {
-    padding-top: 10px;
+    padding-top: 12px;
     padding-bottom: 10px;
 }
 
 .top {
-    background-color: #F1E4E6;
+    background-color: #F7F7F7;
 }
 
 .container__top {
@@ -233,6 +250,7 @@ a {
 /* section */
 .section-box {
     width: 1140px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -242,7 +260,7 @@ a {
 
 .h3-item {
     text-align: center;
-    margin-top: 100px;
+
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -525,14 +543,220 @@ a {
 }
 
 
-.fa {
+.fa-brands {
     border-radius: 1px;
     font-size: 32px;
     color: #FFFFFF;
     background-color: #000000;
 }
 
-.fa:hover {
+.fa-brands:hover {
     color: #F16D7F;
     background-color: #fff;
+}
+
+
+
+/* PRODUCT PAGE */
+
+.twolinlk {
+    background-color: #F8F3F4;
+}
+
+.productlink {
+    display: flex;
+}
+
+
+
+.h3-arrivals {
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+
+.dezactive {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #636363;
+}
+
+.productlink {
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.active {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #F16D7F;
+}
+
+.container-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-solid {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 47px;
+    font-size: 47px;
+    color: #000000;
+    background: rgba(42, 42, 42, 0.15);
+}
+
+.fa-solid:hover {
+    color: #F16D7F;
+}
+
+.product-top-banner {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.product-content {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+    background-color: #fff;
+    border: 1px solid #EAEAEA;
+}
+
+.pc-h3 {
+
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 65px;
+
+    color: #F16D7F;
+
+}
+
+.hrprod {
+    width: 63px;
+    margin-top: 12px;
+    background: #EF5B70;
+}
+
+.pc-h3-2 {
+    margin-top: 12px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #4D4D4D;
+}
+
+.pc-text {
+    margin-top: 48px;
+    margin-bottom: 32px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    max-width: 600px;
+    color: #5E5E5E;
+}
+
+.pc-price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #EF5B70;
+
+}
+
+.hrprod2 {
+    width: 640px;
+    margin-top: 65px;
+}
+
+.pc-menu {
+    display: flex;
+}
+
+.pc-summary {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 10px;
+    margin-top: 65px;
+    color: #6F6E6E;
+
+}
+
+summary {
+    display: block;
+}
+
+.pc-summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Добавить картинку */
+.pc-summary::after {
+    content: '\25B6';
+    padding-right: 0.5em;
+}
+
+.pc-details[open]>summary::after {
+    content: '\25BC';
+}
+
+
+
+.pc-add {
+    display: flex;
+    padding: 6px 12px 6px 12px;
+    align-items: center;
+    border: 1px solid#F26376;
+    pointer-events: auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+
+}
+
+
+.add-ps-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 5px;
+    color: #F26376;
+
+
 }
