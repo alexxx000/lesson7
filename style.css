@@ -912,6 +912,7 @@ a {
 
 .left-form {
   max-width: 45vw;
+  margin-left: 5vw;
 }
 
 fieldset {
