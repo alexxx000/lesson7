@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+    <title>Cart</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/bbd8714ccc.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -74,70 +74,81 @@
     <nav class="twolinlk">
         <nav class="container container__logo">
             <div class="productlink"><a class="twolinlk-left" href="#">
-                    <h3 class="h3-arrivals">REGISTRATION</h3>
+                    <h3 class="h3-arrivals"> NEW ARRIVALS</h3>
                 </a></div>
-
+            <div class="productlink"><a class="twolinlk-right" href="index.html">
+                    <p class="dezactive"> HOME /&nbsp;</p>
+                </a>
+                <a class="twolinlk-right" href="#">
+                    <p class="dezactive"> MEN /&nbsp;</p>
+                </a>
+                <a class="twolinlk-right" href="#">
+                    <p class="active"> NEW
+                        ARRIVALS</p>
+                </a>
             </div>
         </nav>
     </nav>
 
-    <section class="container section-box form">
+    <div class="cart">
+        <div class="megacart1">
+            <div class="cartBox">
+                <div class="cartImage">
+                    <img src="img/product3.jpg" alt="top_banner">
+                </div>
+                <div class="cartPrice">
+                    <h2 class="mango">MANGO PEOPLE T-SHIRT</h2>
+                    <p class="pricetext">price: <span class="priceSpan">300 $</span></p>
+                    <p class="pricetext">Color: <span>Red</span></p>
+                    <p class="pricetext">Size: <span>xl</span></p>
+                    <div class="qant">
+                        <p class="pricetext">Quantity:</p><input class="inqant" id="Quant" type="number" value="1"
+                            required min="1" max="100">
+                    </div>
+                </div>
+            </div>
+            <div class="cartBox">
+                <div class="cartImage">
+                    <img src="img/product3.jpg" alt="top_banner">
+                </div>
+                <div class="cartPrice">
+                    <h2 class="mango">MANGO PEOPLE T-SHIRT</h2>
+                    <p class="pricetext">price: <span class="priceSpan">300 $</span></p>
+                    <p class="pricetext">Color: <span>Red</span></p>
+                    <p class="pricetext">Size: <span>xl</span></p>
+                    <div class="qant">
+                        <p class="pricetext">Quantity:</p><input class="inqant" id="Quant" type="number" value="1"
+                            required min="1" max="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="form-block">
-            <h4 class="form-h4">Your Name</h4>
+            <h4 class="form-h4">SHIPPING ADRESS</h4>
             <fieldset class="right-form">
 
-                <input class="r-f-size" id="name" placeholder="First Name" autofocus required pattern="\S+[А-яа-я]">
+                <input class="r-f-size" id="city-client" placeholder="Bangladesh" autofocus required
+                    pattern="\S+[А-яа-я]">
             </fieldset>
 
             <fieldset class="right-form">
-                <input class="r-f-size" id="name" placeholder="Last Name" required pattern="\S+[А-яа-я]">
+                <input class="r-f-size" id="State" placeholder="State" required pattern="\S+[А-яа-я]">
             </fieldset>
             <fieldset class="right-form">
-                <input type="radio" id="contactChoice1" name="contact" value="email">
-                <label for="contactChoice1">Male</label>
-
-                <input type="radio" id="contactChoice2" name="contact" value="phone">
-                <label for="contactChoice2">Female</label>
-            </fieldset>
-
-            <h4 class="form-h4">Login details</h4>
-            <fieldset class="right-form">
-                <input class="r-f-size" id="email" placeholder="Email" type="email">
+                <input class="r-f-size" id="ZIP" placeholder="Postcode / Zip" required pattern="\S+[1-9]">
             </fieldset>
             <fieldset class="right-form">
-                <input class="r-f-size" id="userPassword" placeholder="Password" type="password">
+                <a href="#"><button class="card-button-form">GET A QUOTE</button></a>
             </fieldset>
-            <p class="pass-text">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and
-                lowercase letters
-            </p>
             <fieldset class="right-form">
                 <a href="#"><button class="button-form">Join now <i class="fa fa-solid
-                            fa-arrow-right-long"></i></button></a>
+                                fa-arrow-right-long"></i></button></a>
             </fieldset>
         </div>
-        <div class="left-form">
-            <h3 class="loyal">LOYALTY HAS ITS PERKS</h3>
-            <p class="Getin">Get in on the loyalty program where you can earn points and unlock serious perks. Starting
-                with
-                these as soon
-                as you join:</p>
-            <div class="check"><i class="fa fa-solid fa-check"></i>
-                <p class="Getin"> 15% off welcome offer</p>
-            </div>
-            <div class="check"><i class="fa fa-solid fa-check"></i>
-                <p class="Getin">Free shipping, returns and exchanges on all orders</p>
-            </div>
-            <div class="check"><i class="fa fa-solid fa-check"></i>
-                <p class="Getin">$10 off a purchase on your birthday</p>
-            </div>
-            <div class="check"><i class="fa fa-solid fa-check"></i>
-                <p class="Getin">Early access to products</p>
-            </div>
-            <div class="check"><i class="fa fa-solid fa-check"></i>
-                <p class="Getin">Exclusive offers & rewards</p>
-            </div>
-        </div>
-    </section>
+
+
+    </div>
 
 
 

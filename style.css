@@ -169,11 +169,6 @@ a {
   color: #F16D7F;
 }
 
-/* .longbox {
-    /* margin: auto;
-    width: 1140px; 
-} */
-/* menu */
 .menu1 {
   padding-bottom: 20px;
   position: relative;
@@ -364,7 +359,6 @@ a {
 }
 
 /* section */
-/* footer block1*/
 .for-footer {
   background: #222224;
   height: 341px;
@@ -392,7 +386,6 @@ a {
   margin-bottom: 16px;
 }
 
-/* footer block2 */
 .for-form {
   background-image: url(img/bg-footer.jpg);
   height: 335px;
@@ -415,9 +408,6 @@ a {
   max-width: 356px;
 }
 
-/* .form {
-    position: relative;
-} */
 .review_scr {
   padding-top: 50px;
   padding-bottom: 30px;
@@ -521,7 +511,6 @@ a {
   background-color: #fff;
 }
 
-/* PRODUCT PAGE */
 .twolinlk {
   background-color: #F8F3F4;
 }
@@ -709,7 +698,6 @@ a {
   color: #F26376;
 }
 
-/* Catalog PAGE */
 .sec-filter {
   display: flex;
   margin-top: 50px;
@@ -984,4 +972,69 @@ fieldset {
   font-size: 16px;
   line-height: 19px;
   color: #222222;
+}
+
+.cart {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vh;
+}
+
+.cartBox {
+  display: flex;
+}
+
+.qant {
+  display: flex;
+}
+
+.inqant {
+  font-family: "Lato";
+  padding-left: 10px;
+  outline: none;
+}
+
+.mango {
+  margin-top: 5vh;
+  margin-bottom: 7vh;
+  text-transform: uppercase;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+}
+
+.pricetext {
+  padding-right: 2vh;
+  padding-bottom: 0.5vh;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+}
+
+.cartPrice {
+  padding-left: 5vh;
+}
+
+.priceSpan {
+  color: #F16D7F;
+}
+
+.card-button-form {
+  background-color: #fff;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #4A4A4A;
+  border: 1px solid #A4A4A4;
+  padding: 15px;
 }/*# sourceMappingURL=style.css.map */

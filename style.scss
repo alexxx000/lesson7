@@ -1,3 +1,5 @@
+$genersl-color: #F16D7F;
+
 $top-margin-ps-menu: 14px;
 
 $mega-link-padding-right: 53px;
@@ -17,18 +19,21 @@ a {
     text-decoration: none;
 }
 
+// GLOBAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 .container {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-
-
 .container__logo {
     max-width: 1140px;
     display: flex;
     justify-content: space-between;
+
 }
+
+// HEADER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 .fullblack {
     background-color: black;
@@ -89,6 +94,7 @@ a {
     padding-bottom: 10px;
 }
 
+// TOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 .top {
     background-color: #F7F7F7;
 }
@@ -101,7 +107,6 @@ a {
 .par {
     height: 92px;
     width: 12px;
-
 
     position: absolute;
     left: 54%;
@@ -185,11 +190,7 @@ a {
     color: #F16D7F;
 }
 
-/* .longbox {
-    /* margin: auto;
-    width: 1140px; 
-} */
-/* menu */
+// MENU!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 .menu1 {
     padding-bottom: 20px;
     position: relative;
@@ -369,7 +370,6 @@ a {
 
 }
 
-
 .add-text {
     font-family: 'Lato';
     font-style: normal;
@@ -390,7 +390,7 @@ a {
 }
 
 /* section */
-/* footer block1*/
+// FOOTER BLOCK1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 .for-footer {
     background: #222224;
@@ -420,7 +420,7 @@ a {
     margin-bottom: 16px;
 }
 
-/* footer block2 */
+// FOOTER BLOCK 2!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 .for-form {
     background-image: url(img/bg-footer.jpg);
@@ -445,9 +445,6 @@ a {
     max-width: 356px;
 }
 
-/* .form {
-    position: relative;
-} */
 .review_scr {
     padding-top: 50px;
     padding-bottom: 30px;
@@ -563,7 +560,7 @@ a {
 
 
 
-/* PRODUCT PAGE */
+// PRODUCT PAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
 
 .twolinlk {
     background-color: #F8F3F4;
@@ -766,7 +763,7 @@ a {
 
 }
 
-/* Catalog PAGE */
+// CATALOG PAGE!!!!!!!!!!!!!!!!!!!!!! 
 .sec-filter {
     display: flex;
     margin-top: 50px;
@@ -803,7 +800,7 @@ a {
 
 }
 
-// MENU-FILTER
+// MENU-FILTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 .menu-box-filter {
     margin-top: 13px;
     position: relative;
@@ -1074,5 +1071,78 @@ fieldset {
     line-height: 19px;
 
     color: #222222;
+
+}
+
+
+// CART PAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+.cart {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.cartBox {
+    display: flex;
+}
+
+.qant {
+    display: flex;
+}
+
+.inqant {
+    font-family: 'Lato';
+    padding-left: 10px;
+    outline: none;
+}
+
+.mango {
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+}
+
+.pricetext {
+    padding-right: 2vh;
+    padding-bottom: 0.5vh;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+}
+
+.cartPrice {
+    padding-left: 5vh;
+}
+
+.priceSpan {
+    color: $genersl-color;
+
+}
+
+.card-button-form {
+    background-color: #fff;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+
+    border: 1px solid #A4A4A4;
+    padding: 15px;
+
 
 }
