@@ -117,7 +117,7 @@ a {
 }
 
 .container__box {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     display: flex;
     margin-top: 50px;
@@ -256,7 +256,7 @@ a {
 
 /* section */
 .section-box {
-    width: 1140px;
+    max-width: 1140px;
     margin-top: 100px;
     margin-bottom: 20px;
 }
@@ -635,7 +635,7 @@ a {
 }
 
 .product-content {
-    width: 1140px;
+    max-width: 1140px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -896,7 +896,7 @@ a {
 }
 
 .pagination-box {
-    width: 1140px;
+    max-width: 1140px;
 
 
 }
@@ -1086,8 +1086,14 @@ fieldset {
     margin-top: 5vh;
 }
 
+.megacart1 {
+
+    margin-bottom: 5vh;
+}
+
 .cartBox {
     display: flex;
+    margin-top: 1vh;
 }
 
 .qant {
@@ -1145,4 +1151,61 @@ fieldset {
     padding: 15px;
 
 
+}
+
+.cartBottomLink {
+
+    justify-content: space-between;
+}
+
+.priceCart {
+    display: flex;
+    flex-direction: column;
+    background: #F5F3F3;
+    padding: 3vh;
+
+}
+
+.button-formCard {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-color: transparent;
+    padding: 15px 35px 15px 35px;
+    background: #F16D7F;
+}
+
+.priceSUb {
+    margin-bottom: 1vh;
+    text-transform: uppercase;
+
+    text-align: right;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+}
+
+.priceGrand {
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #222222;
+
+}
+
+.cartHr {
+    margin-bottom: 15px;
+    background-color: #E2E2E2;
 }
