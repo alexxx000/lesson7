@@ -264,6 +264,7 @@ a {
 
 .h3-item {
   text-align: center;
+  color: #222222;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -313,6 +314,7 @@ a {
   font-size: 13px;
   line-height: 16px;
   margin-bottom: 12px;
+  color: #000000;
 }
 
 .box-description {
@@ -1127,6 +1129,11 @@ fieldset {
   margin-top: 1vh;
 }
 
+.cartBox:hover {
+  -webkit-box-shadow: 0 0 10px #474747;
+          box-shadow: 0 0 10px #474747;
+}
+
 .qant {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1140,8 +1147,8 @@ fieldset {
 }
 
 .mango {
-  margin-top: 5vh;
-  margin-bottom: 7vh;
+  margin-top: 2vh;
+  margin-bottom: 6vh;
   text-transform: uppercase;
   font-family: 'Lato';
   font-style: normal;
@@ -1164,6 +1171,7 @@ fieldset {
 
 .cartPrice {
   padding-left: 5vh;
+  padding-right: 5vh;
 }
 
 .priceSpan {
@@ -1182,7 +1190,15 @@ fieldset {
   padding: 15px;
 }
 
+.card-button-form:hover {
+  -webkit-box-shadow: 0 0 10px #aee5a6;
+          box-shadow: 0 0 10px #aee5a6;
+}
+
 .cartBottomLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1200,16 +1216,28 @@ fieldset {
   padding: 3vh;
 }
 
+.priceCart:hover {
+  background: #ebe3e3;
+  -webkit-box-shadow: 0 0 10px #ba9da9;
+          box-shadow: 0 0 10px #ba9da9;
+}
+
 .button-formCard {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #FFFFFF;
+  color: #F16D7F;
+  background: #F5F3F3;
   text-transform: uppercase;
-  border-color: transparent;
+  border-color: #F16D7F;
   padding: 15px 35px 15px 35px;
+}
+
+.button-formCard:hover {
+  border-color: transparent;
+  color: #FFFFFF;
   background: #F16D7F;
 }
 
