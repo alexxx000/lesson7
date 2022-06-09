@@ -448,10 +448,11 @@ a {
 
 .for-form {
   background-image: url(img/bg-footer.jpg);
-  height: 335px;
-  background-size: 100%;
+  background-size: cover;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: bottom;
 }
 
 .container_form {
@@ -551,7 +552,7 @@ a {
   color: #222224;
   background: #E1E1E1;
   border-radius: 50px 0 0 50px;
-  padding: 15px;
+  padding: 0 2.5em 0 1.5em;
   border-color: transparent;
   min-width: 205px;
 }
