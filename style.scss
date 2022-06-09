@@ -152,6 +152,11 @@ a {
     position: relative;
 }
 
+.box:hover {
+    transform: scale(1.1);
+}
+
+
 .boxtext {
     position: absolute;
     left: 37%;
@@ -347,6 +352,7 @@ a {
 .item:hover {
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
     width: 360px;
+    transform: scale(1.1);
 }
 
 .item:hover .item-pic {
@@ -480,7 +486,7 @@ a {
     border-color: transparent;
     padding: 15px;
     background: #F16D7F;
-
+    cursor: pointer;
 }
 
 .form {
