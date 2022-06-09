@@ -266,6 +266,11 @@ a {
     margin-bottom: 20px;
 }
 
+.indexButCat {
+    display: flex;
+    justify-content: center;
+}
+
 .item-pic {
     width: 100%;
 }
@@ -481,12 +486,21 @@ a {
     font-style: normal;
     font-size: 14px;
     line-height: 17px;
-    color: #FFFFFF;
+
     border-radius: 0 50px 50px 0;
     border-color: transparent;
     padding: 15px;
-    background: #F16D7F;
+
     cursor: pointer;
+    color: #FFFFFF;
+    background: #F16D7F;
+}
+
+
+.button:hover {
+    border-color: #F16D7F;
+    color: #F16D7F;
+    background: #FFFFFF;
 }
 
 .form {
@@ -1066,6 +1080,12 @@ fieldset {
     margin-bottom: 50px;
 }
 
+.button-form:hover {
+    border-color: #F16D7F;
+    color: #F16D7F;
+    background: #FFFFFF;
+}
+
 .fa-arrow-right-long {
     padding-left: 10px;
 }
@@ -1169,7 +1189,8 @@ fieldset {
 }
 
 .card-button-form:hover {
-    box-shadow: 0 0 10px rgb(174, 229, 166);
+    background-color: #f498a5;
+    box-shadow: 0 0 15px #F16D7F;
 }
 
 .cartBottomLink {
@@ -1195,20 +1216,18 @@ fieldset {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    color: #F16D7F;
-    background: #F5F3F3;
-
+    color: #FFFFFF;
+    background: #F16D7F;
     text-transform: uppercase;
-    border-color: #F16D7F;
-
+    border-color: transparent;
     padding: 15px 35px 15px 35px;
 
 }
 
 .button-formCard:hover {
-    border-color: transparent;
-    color: #FFFFFF;
-    background: #F16D7F;
+    border-color: #F16D7F;
+    color: #F16D7F;
+    background: #F5F3F3;
 }
 
 .priceSUb {
