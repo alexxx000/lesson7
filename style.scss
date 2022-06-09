@@ -609,7 +609,7 @@ a {
 }
 
 
-.dezactive {
+.active {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -619,20 +619,16 @@ a {
     color: #636363;
 }
 
+.active:hover {
+    color: #F16D7F;
+}
+
 .productlink {
     margin-top: 65px;
     margin-bottom: 65px;
 }
 
-.active {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
 
-    color: #F16D7F;
-}
 
 .container-banner {
     display: flex;
@@ -946,12 +942,16 @@ a {
 
 .number-page:hover {
     color: #EF5B70;
+    font-size: 25px;
+    line-height: 28px;
 }
 
 .pag-block {
     display: flex;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .pag-section {
@@ -964,6 +964,9 @@ a {
 
 }
 
+.pag-section:hover {
+    box-shadow: 0 0 10px #636363;
+}
 
 
 .fa-chevron-right,
@@ -979,6 +982,8 @@ a {
 .fa-chevron-right:hover,
 .fa-chevron-left:hover {
     color: #F16D7F;
+    height: 25px;
+    font-size: 25px;
 }
 
 .check {
