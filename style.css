@@ -22,6 +22,14 @@ a {
   justify-content: space-between;
 }
 
+.fullblack_head {
+  background-color: black;
+}
+
+.fullblack_footer {
+  background-color: black;
+}
+
 .fullblack {
   background-color: black;
 }
@@ -713,6 +721,22 @@ a {
   color: #F26376;
 }
 
+.pc-add:hover {
+  background: #F26376;
+}
+
+.pc-add:hover .add-ps-text {
+  color: #FFFFFF;
+}
+
+.fa-cart-shopping {
+  color: #F26376;
+}
+
+.pc-add:hover .fa-cart-shopping {
+  color: #FFFFFF;
+}
+
 .sec-filter {
   display: flex;
   margin-top: 50px;
@@ -948,6 +972,7 @@ fieldset {
   width: 360px;
   height: 45px;
   padding-left: 20px;
+  padding-right: 20px;
   border: 1px solid #B1B1B1;
   font-family: "Lato";
   font-style: normal;
@@ -976,8 +1001,7 @@ fieldset {
   color: #FFFFFF;
   text-transform: uppercase;
   border-color: transparent;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 15px;
   background: #F16D7F;
   margin-top: 50px;
   margin-bottom: 50px;
