@@ -98,6 +98,16 @@ a {
   /* background-color: #F1E4E6; */
 }
 
+.top-pic {
+  max-width: 65%;
+  max-height: 100%;
+}
+
+.topPic {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .par {
   height: 92px;
   width: 12px;
@@ -141,10 +151,20 @@ a {
 
 .box {
   position: relative;
+  max-width: 32%;
 }
 
 .box:hover {
   transform: scale(1.1);
+}
+
+.boxpic {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.boxBottom {
+  max-width: 100%;
 }
 
 .boxtext {
@@ -381,7 +401,7 @@ a {
 /* section */
 .for-footer {
   background: #222224;
-  height: 341px;
+  min-height: 341px;
   align-items: center;
 }
 
@@ -1170,4 +1190,27 @@ fieldset {
 .cartHr {
   margin-bottom: 15px;
   background-color: #E2E2E2;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .menu2 {
+    display: none;
+  }
+
+  .menu3 {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 10px;
+  }
+
+  .menu1 {
+    margin-right: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
