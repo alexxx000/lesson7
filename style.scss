@@ -179,6 +179,7 @@ a {
 
 }
 
+
 .box:hover {
     transform: scale(1.1);
 }
@@ -187,6 +188,11 @@ a {
     max-width: 100%;
     max-height: 100%;
 }
+
+.boxpic:hover {
+    transform: scale(1.1);
+}
+
 
 .mbox {
     display: flex;
@@ -1281,7 +1287,7 @@ fieldset {
     font-size: 11px;
     line-height: 13px;
     color: #4A4A4A;
-
+    cursor: pointer;
     border: 1px solid #A4A4A4;
     padding: 15px;
 
@@ -1321,6 +1327,7 @@ fieldset {
     text-transform: uppercase;
     border-color: transparent;
     padding: 15px 35px 15px 35px;
+    cursor: pointer;
 
 }
 
