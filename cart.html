@@ -75,9 +75,10 @@
     <nav class="twolinlk">
         <nav class="container container__logo">
             <div class="productlink"><a class="twolinlk-left" href="#">
-                    <h3 class="h3-arrivals"> NEW ARRIVALS</h3>
+                    <h3 class="h3-arrivals"> Shopping cart</h3>
                 </a></div>
-            <div class="productlink"><a class="twolinlk-right" href="index.html">
+            <div class="productlink">
+                <!--<a class="twolinlk-right" href="index.html">
                     <p class="active"> HOME /&nbsp;</p>
                 </a>
                 <a class="twolinlk-right" href="#">
@@ -86,7 +87,7 @@
                 <a class="twolinlk-right" href="#">
                     <p class="active"> NEW
                         ARRIVALS</p>
-                </a>
+                </a> -->
             </div>
         </nav>
     </nav>
@@ -96,7 +97,7 @@
             <figure class="cartBox">
                 <a href="product.html">
                     <div class="cartImage">
-                        <img src="img/product8.jpg" alt="top_banner">
+                        <img class="scr-banner" src="img/product8.jpg" alt="top_banner">
                     </div>
                 </a>
                 <div class="cartPrice">
@@ -113,7 +114,7 @@
             </figure>
             <figure class="cartBox"><a href="product.html">
                     <div class="cartImage">
-                        <img src="img/product7.jpg" alt="top_banner">
+                        <img class="scr-banner" src="img/product7.jpg" alt="top_banner">
                     </div>
                 </a>
                 <div class="cartPrice">
@@ -141,22 +142,24 @@
         </div>
 
         <form class="form-block">
-            <h4 class="form-h4">SHIPPING ADRESS</h4>
-            <fieldset class="right-form">
+            <div>
+                <h4 class="form-h4">SHIPPING ADRESS</h4>
+                <fieldset class="right-form">
 
-                <input class="r-f-size" id="city-client" placeholder="Bangladesh" autofocus required
-                    pattern="\S+[А-яа-я]">
-            </fieldset>
+                    <input class="r-f-size" id="city-client" placeholder="Bangladesh" autofocus required
+                        pattern="\S+[А-яа-я]">
+                </fieldset>
 
-            <fieldset class="right-form">
-                <input class="r-f-size" id="State" placeholder="State" required pattern="\S+[А-яа-я]">
-            </fieldset>
-            <fieldset class="right-form">
-                <input class="r-f-size" id="ZIP" placeholder="Postcode / Zip" required pattern="\S+[1-9]">
-            </fieldset>
-            <fieldset class="right-form">
-                <a href="#"><button class="card-button-form">GET A QUOTE</button></a>
-            </fieldset>
+                <fieldset class="right-form">
+                    <input class="r-f-size" id="State" placeholder="State" required pattern="\S+[А-яа-я]">
+                </fieldset>
+                <fieldset class="right-form">
+                    <input class="r-f-size" id="ZIP" placeholder="Postcode / Zip" required pattern="\S+[1-9]">
+                </fieldset>
+                <fieldset class="right-form">
+                    <a href="#"><button class="card-button-form">GET A QUOTE</button></a>
+                </fieldset>
+            </div>
 
 
             <div class="priceCart">
