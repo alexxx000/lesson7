@@ -15,16 +15,15 @@
 
 
 </head>
-
-<body>
+<div class="wrapper">
     <header class="fullblack">
         <nav class="container container__logo">
             <ul class="left">
-                <li class="logo"><a href="index.html"><img src="img/logo.svg" alt="logo"></a></li>
-                <li class="search"><a href="#"><img src="img/search.svg" alt="cearch-pic"></a></li>
+                <li class="logo"><a href="index.html"><img class="vh-logo" src="img/logo.svg" alt="logo"></a></li>
+                <li class="search"><a href="#"><img class="vh-logo" src="img/search.svg" alt="cearch-pic"></a></li>
             </ul>
             <ul class="right">
-                <li class="menu1"><a href="#"><img src="img/menu.svg" alt="menu-pic"></a>
+                <li class="menu1"><a href="#"><img class="vh-logo" src="img/menu.svg" alt="menu-pic"></a>
                     <div class="mega-box">
                         <div class="mega-item">
                             <h3 class="mega-heading-menu">MENU</h3>
@@ -51,16 +50,15 @@
                             <a class="mega-link" href="#">Shirts</a>
                             <a class="mega-link" href="#">Bags</a>
                         </div>
-
                     </div>
                 </li>
                 <li class="menu2"><a href="registration.html">
-                        <div class="addbasket"><img src="img/sign-in.svg" alt="sign-in-pic"></div>
+                        <div class="addbasket"><img class="vh-logo" src="img/sign-in.svg" alt="sign-in-pic"></div>
                     </a>
                 </li>
                 <li class="menu3"><a href="cart.html">
-                        <div class="addbasket"><img src="img/basket.svg" alt="basket-pic">
-                            <div class="addprodukt"><img src="img/Ellipse.png" alt="Ellipse"></div>
+                        <div class="addbasket"><img class="vh-logo" src="img/basket.svg" alt="basket-pic">
+                            <div class="addprodukt"><img class="vh-logo" src="img/Ellipse.png" alt="Ellipse"></div>
                             <div class="addproduktN">
                                 <p>5</p>
                             </div>
@@ -75,9 +73,10 @@
     <nav class="twolinlk">
         <nav class="container container__logo">
             <div class="productlink"><a class="twolinlk-left" href="#">
-                    <h3 class="h3-arrivals"> NEW ARRIVALS</h3>
+                    <h3 class="h3-arrivals"> Shopping cart</h3>
                 </a></div>
-            <div class="productlink"><a class="twolinlk-right" href="index.html">
+            <div class="productlink">
+                <!--<a class="twolinlk-right" href="index.html">
                     <p class="active"> HOME /&nbsp;</p>
                 </a>
                 <a class="twolinlk-right" href="#">
@@ -86,7 +85,7 @@
                 <a class="twolinlk-right" href="#">
                     <p class="active"> NEW
                         ARRIVALS</p>
-                </a>
+                </a> -->
             </div>
         </nav>
     </nav>
@@ -96,7 +95,7 @@
             <figure class="cartBox">
                 <a href="product.html">
                     <div class="cartImage">
-                        <img src="img/product8.jpg" alt="top_banner">
+                        <img class="scr-banner" src="img/product8.jpg" alt="top_banner">
                     </div>
                 </a>
                 <div class="cartPrice">
@@ -105,7 +104,7 @@
                     <p class="pricetext">Color: <span>Red</span></p>
                     <p class="pricetext">Size: <span>xl</span></p>
                     <form class="qant">
-                        <p class="pricetext">Quantity:</p><input class="inqant" id="Quant" type="number" value="1"
+                        <p class="pricetext">Quantity:</p><input class="inqant" id="Quant0" type="number" value="5"
                             required min="1" max="100">
                     </form>
                 </div>
@@ -113,7 +112,7 @@
             </figure>
             <figure class="cartBox"><a href="product.html">
                     <div class="cartImage">
-                        <img src="img/product7.jpg" alt="top_banner">
+                        <img class="scr-banner" src="img/product7.jpg" alt="top_banner">
                     </div>
                 </a>
                 <div class="cartPrice">
@@ -122,7 +121,7 @@
                     <p class="pricetext">Color: <span>Red</span></p>
                     <p class="pricetext">Size: <span>xl</span></p>
                     <form class="qant">
-                        <p class="pricetext">Quantity:</p><input class="inqant" id="Quant" type="number" value="1"
+                        <p class="pricetext">Quantity:</p><input class="inqant" id="Quant1" type="number" value="5"
                             required min="1" max="100">
                     </form>
                 </div>
@@ -141,22 +140,24 @@
         </div>
 
         <form class="form-block">
-            <h4 class="form-h4">SHIPPING ADRESS</h4>
-            <fieldset class="right-form">
+            <div class="fbForm">
+                <h4 class="form-h4">SHIPPING ADRESS</h4>
+                <fieldset class="right-form">
 
-                <input class="r-f-size" id="city-client" placeholder="Bangladesh" autofocus required
-                    pattern="\S+[А-яа-я]">
-            </fieldset>
+                    <input class="r-f-size" id="city-client" placeholder="Bangladesh" autofocus required
+                        pattern="\S+[А-яа-я]">
+                </fieldset>
 
-            <fieldset class="right-form">
-                <input class="r-f-size" id="State" placeholder="State" required pattern="\S+[А-яа-я]">
-            </fieldset>
-            <fieldset class="right-form">
-                <input class="r-f-size" id="ZIP" placeholder="Postcode / Zip" required pattern="\S+[1-9]">
-            </fieldset>
-            <fieldset class="right-form">
-                <a href="#"><button class="card-button-form">GET A QUOTE</button></a>
-            </fieldset>
+                <fieldset class="right-form">
+                    <input class="r-f-size" id="State" placeholder="State" required pattern="\S+[А-яа-я]">
+                </fieldset>
+                <fieldset class="right-form">
+                    <input class="r-f-size" id="ZIP" placeholder="Postcode / Zip" required pattern="\S+[1-9]">
+                </fieldset>
+                <fieldset class="right-form">
+                    <a href="#"><button class="card-button-form">GET A QUOTE</button></a>
+                </fieldset>
+            </div>
 
 
             <div class="priceCart">
@@ -198,44 +199,46 @@
                     <input class="form-input" type="email" name="Email" value="Enter Your Email" id="email">
                     <button class="button">Subscribe</button>
                 </form>
-        </nav>
-    </footer>
-    <footer class="fullblack">
-        <nav class="container container__logo">
-            <div class="left">
-                <div class="copyright_text">
-                    <p> &copy; 2022 Brand All Rights Reserved.</p>
-                </div>
-            </div>
-            <div class="icon">
-                <div class="ico">
-                    <div class="inlink"><a href="https://facebook.com" target="_blank" class="icon">
-                            <i class="fa fa-brands fa-facebook-square"></i></a>
-                    </div>
-                </div>
-                <div class="ico">
-                    <div class="inlink"><a href="https://www.instagram.com/" target="_blank" class="icon">
-                            <i class="fa fa-brands fa-instagram-square"></i></a>
-                    </div>
-                </div>
-                <div class="ico">
-                    <div class="inlink"><a href="https://www.pinterest.ru/" target="_blank" class="icon">
-                            <i class="fa fa-brands fa-pinterest-square"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="ico">
-                    <div class="inlink">
-                        <a href="https://twitter.com/?lang=ru" target="_blank" class="icon">
-
-                            <i class="fa fa-brands fa-twitter-square"></i> </a>
-                    </div>
-
-                </div>
-
             </div>
         </nav>
     </footer>
-</body>
+    <div class="push"></div>
+</div>
+<footer class="fullblack">
+    <nav class="container container__logo cc">
+        <div class="left left1">
+            <div class="copyright_text">
+                <p> &copy; 2022 Brand All Rights Reserved.</p>
+            </div>
+        </div>
+        <div class="icon">
+            <div class="ico">
+                <div class="inlink"><a href="https://facebook.com" target="_blank" class="icon">
+                        <i class="fa fa-brands fa-facebook-square"></i></a>
+                </div>
+            </div>
+            <div class="ico">
+                <div class="inlink"><a href="https://www.instagram.com/" target="_blank" class="icon">
+                        <i class="fa fa-brands fa-instagram-square"></i></a>
+                </div>
+            </div>
+            <div class="ico">
+                <div class="inlink"><a href="https://www.pinterest.ru/" target="_blank" class="icon">
+                        <i class="fa fa-brands fa-pinterest-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ico">
+                <div class="inlink">
+                    <a href="https://twitter.com/?lang=ru" target="_blank" class="icon">
+
+                        <i class="fa fa-brands fa-twitter-square"></i> </a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+</footer>
 
 </html>

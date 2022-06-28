@@ -17,165 +17,163 @@
 </head>
 
 <body>
-    <header class="fullblack_head">
-        <nav class="container container__logo">
-            <ul class="left">
-                <li class="logo"><a href="index.html"><img src="img/logo.svg" alt="logo"></a></li>
-                <li class="search"><a href="#"><img src="img/search.svg" alt="cearch-pic"></a></li>
-            </ul>
-            <ul class="right">
-                <li class="menu1"><a href="#"><img src="img/menu.svg" alt="menu-pic"></a>
-                    <div class="mega-box">
-                        <div class="mega-item">
-                            <h3 class="mega-heading-menu">MENU</h3>
-                            <h3 class="mega-heading">man</h3>
-                            <a class="mega-link" href="#">Accessories</a>
-                            <a class="mega-link" href="#">Bags</a>
-                            <a class="mega-link" href="#">Denim</a>
-                            <a class="mega-link" href="#">T-Shirts</a>
-                        </div>
-                        <div class="mega-item">
-                            <h3 class="mega-heading">woman</h3>
-                            <a class="mega-link" href="#">Accessories</a>
-                            <a class="mega-link" href="#">Jackets & Coats</a>
-                            <a class="mega-link" href="#">Polos</a>
-                            <a class="mega-link" href="#">T-Shirts</a>
-                            <a class="mega-link" href="#">Shirts</a>
-                        </div>
-                        <div class="mega-item">
-                            <h3 class="mega-heading">kids</h3>
-                            <a class="mega-link" href="#">Accessories</a>
-                            <a class="mega-link" href="#">Jackets & Coats</a>
-                            <a class="mega-link" href="#">Polos</a>
-                            <a class="mega-link" href="#">T-Shirts</a>
-                            <a class="mega-link" href="#">Shirts</a>
-                            <a class="mega-link" href="#">Bags</a>
-                        </div>
-
-                    </div>
-                </li>
-                <li class="menu2"><a href="registration.html">
-                        <div class="addbasket"><img src="img/sign-in.svg" alt="sign-in-pic"></div>
-                    </a>
-                </li>
-                <li class="menu3"><a href="cart.html">
-                        <div class="addbasket"><img src="img/basket.svg" alt="basket-pic">
-                            <div class="addprodukt"><img src="img/Ellipse.png" alt="Ellipse"></div>
-                            <div class="addproduktN">
-                                <p>5</p>
+    <div class="wrapper">
+        <header class="fullblack">
+            <nav class="container container__logo">
+                <ul class="left">
+                    <li class="logo"><a href="index.html"><img class="vh-logo" src="img/logo.svg" alt="logo"></a></li>
+                    <li class="search"><a href="#"><img class="vh-logo" src="img/search.svg" alt="cearch-pic"></a></li>
+                </ul>
+                <ul class="right">
+                    <li class="menu1"><a href="#"><img class="vh-logo" src="img/menu.svg" alt="menu-pic"></a>
+                        <div class="mega-box">
+                            <div class="mega-item">
+                                <h3 class="mega-heading-menu">MENU</h3>
+                                <h3 class="mega-heading">man</h3>
+                                <a class="mega-link" href="#">Accessories</a>
+                                <a class="mega-link" href="#">Bags</a>
+                                <a class="mega-link" href="#">Denim</a>
+                                <a class="mega-link" href="#">T-Shirts</a>
+                            </div>
+                            <div class="mega-item">
+                                <h3 class="mega-heading">woman</h3>
+                                <a class="mega-link" href="#">Accessories</a>
+                                <a class="mega-link" href="#">Jackets & Coats</a>
+                                <a class="mega-link" href="#">Polos</a>
+                                <a class="mega-link" href="#">T-Shirts</a>
+                                <a class="mega-link" href="#">Shirts</a>
+                            </div>
+                            <div class="mega-item">
+                                <h3 class="mega-heading">kids</h3>
+                                <a class="mega-link" href="#">Accessories</a>
+                                <a class="mega-link" href="#">Jackets & Coats</a>
+                                <a class="mega-link" href="#">Polos</a>
+                                <a class="mega-link" href="#">T-Shirts</a>
+                                <a class="mega-link" href="#">Shirts</a>
+                                <a class="mega-link" href="#">Bags</a>
                             </div>
                         </div>
+                    </li>
+                    <li class="menu2"><a href="registration.html">
+                            <div class="addbasket"><img class="vh-logo" src="img/sign-in.svg" alt="sign-in-pic"></div>
+                        </a>
+                    </li>
+                    <li class="menu3"><a href="cart.html">
+                            <div class="addbasket"><img class="vh-logo" src="img/basket.svg" alt="basket-pic">
+                                <div class="addprodukt"><img class="vh-logo" src="img/Ellipse.png" alt="Ellipse"></div>
+                                <div class="addproduktN">
+                                    <p>5</p>
+                                </div>
+                            </div>
 
-                    </a>
-            </ul>
+                        </a>
+                </ul>
+            </nav>
+        </header>
+
+
+        <nav class="twolinlk">
+            <nav class="container container__logo">
+                <div class="productlink"><a class="twolinlk-left" href="#">
+                        <h3 class="h3-arrivals">REGISTRATION</h3>
+                    </a></div>
+
+
+            </nav>
         </nav>
-    </header>
 
+        <section class="container section-box form">
+            <form class="form-block pageform">
+                <h4 class="form-h4">Your Name</h4>
+                <fieldset class="right-form">
 
-    <nav class="twolinlk">
-        <nav class="container container__logo">
-            <div class="productlink"><a class="twolinlk-left" href="#">
-                    <h3 class="h3-arrivals">REGISTRATION</h3>
-                </a></div>
+                    <input class="r-f-size rfReg" type="text" id="name" placeholder="First Name" autofocus required
+                        pattern="\S+[А-яа-я]">
+                </fieldset>
 
-            </div>
-        </nav>
-    </nav>
+                <fieldset class="right-form">
+                    <input class="r-f-size rfReg" type="text" id="name" placeholder="Last Name" required
+                        pattern="\S+[А-яа-я]">
+                </fieldset>
+                <fieldset class="right-form">
+                    <input type="radio" id="contactChoice1" name="contact" value="email">
+                    <label for="contactChoice1">Male</label>
 
-    <section class="container section-box form">
-        <form class="form-block">
-            <h4 class="form-h4">Your Name</h4>
-            <fieldset class="right-form">
+                    <input type="radio" id="contactChoice2" name="contact" value="phone">
+                    <label for="contactChoice2">Female</label>
+                </fieldset>
 
-                <input class="r-f-size" type="text" id="name" placeholder="First Name" autofocus required
-                    pattern="\S+[А-яа-я]">
-            </fieldset>
-
-            <fieldset class="right-form">
-                <input class="r-f-size" type="text" id="name" placeholder="Last Name" required pattern="\S+[А-яа-я]">
-            </fieldset>
-            <fieldset class="right-form">
-                <input type="radio" id="contactChoice1" name="contact" value="email">
-                <label for="contactChoice1">Male</label>
-
-                <input type="radio" id="contactChoice2" name="contact" value="phone">
-                <label for="contactChoice2">Female</label>
-            </fieldset>
-
-            <h4 class="form-h4">Login details</h4>
-            <fieldset class="right-form">
-                <input class="r-f-size" id="email" placeholder="Email" type="email">
-            </fieldset>
-            <fieldset class="right-form">
-                <input class="r-f-size" id="userPassword" placeholder="Password" type="password">
-            </fieldset>
-            <p class="pass-text">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and
-                lowercase letters
-            </p>
-            <fieldset class="right-form">
-                <a href="#"><button class="button-form">Join now <i class="fa fa-solid
+                <h4 class="form-h4">Login details</h4>
+                <fieldset class="right-form">
+                    <input class="r-f-size rfReg" id="email" placeholder="Email" type="email">
+                </fieldset>
+                <fieldset class="right-form">
+                    <input class="r-f-size rfReg" id="userPassword" placeholder="Password" type="password">
+                </fieldset>
+                <p class="pass-text">Please use 8 or more characters, with at least 1 number and a mixture of uppercase
+                    and
+                    lowercase letters
+                </p>
+                <fieldset class="right-form">
+                    <a href="#"><button class="button-form">Join now <i class="fa fa-solid
                             fa-arrow-right-long"></i></button></a>
-            </fieldset>
-        </form>
-        <article class="left-form">
-            <h3 class="loyal">LOYALTY HAS ITS PERKS</h3>
-            <p class="Getin">Get in on the loyalty program where you can earn points and unlock serious perks. Starting
-                with
-                these as soon
-                as you join:</p>
-            <div class="check"><i class="fa fa-solid fa-check"></i>
-                <p class="Getin"> 15% off welcome offer</p>
-            </div>
-            <div class="check"><i class="fa fa-solid fa-check"></i>
-                <p class="Getin">Free shipping, returns and exchanges on all orders</p>
-            </div>
-            <div class="check"><i class="fa fa-solid fa-check"></i>
-                <p class="Getin">$10 off a purchase on your birthday</p>
-            </div>
-            <div class="check"><i class="fa fa-solid fa-check"></i>
-                <p class="Getin">Early access to products</p>
-            </div>
-            <div class="check"><i class="fa fa-solid fa-check"></i>
-                <p class="Getin">Exclusive offers & rewards</p>
-            </div>
-        </article>
-    </section>
-
-
-
-    <footer class="for-form">
-        <nav class="container container_form">
-            <figure class="review">
-                <div class="review_scr"><img src="img/review.png" alt="boxpic1">
+                </fieldset>
+            </form>
+            <article class="left-form">
+                <h3 class="loyal">LOYALTY HAS ITS PERKS</h3>
+                <p class="Getin">Get in on the loyalty program where you can earn points and unlock serious perks.
+                    Starting
+                    with
+                    these as soon
+                    as you join:</p>
+                <div class="check"><i class="fa fa-solid fa-check"></i>
+                    <p class="Getin"> 15% off welcome offer</p>
                 </div>
-
-                <div>
-                    <p class="reviver_Vest"><i>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
-                            purus
-                            condimentum“</i></p>
+                <div class="check"><i class="fa fa-solid fa-check"></i>
+                    <p class="Getin">Free shipping, returns and exchanges on all orders</p>
                 </div>
-            </figure>
-
-            <div class="review">
-
-                <div class="reviwer_text">
-                    <h3 class="review-h3-text">SUBSCRIBE
-                    </h3>
-                    <p>FOR OUR NEWLETTER AND PROMOTION</p>
+                <div class="check"><i class="fa fa-solid fa-check"></i>
+                    <p class="Getin">$10 off a purchase on your birthday</p>
                 </div>
-                <form class="form">
-                    <input class="form-input" type="email" name="Email" value="Enter Your Email" id="email">
-                    <button class="button">Subscribe</button>
-                </form>
-            </div>
+                <div class="check"><i class="fa fa-solid fa-check"></i>
+                    <p class="Getin">Early access to products</p>
+                </div>
+                <div class="check"><i class="fa fa-solid fa-check"></i>
+                    <p class="Getin">Exclusive offers & rewards</p>
+                </div>
+            </article>
+        </section>
+        <footer class="for-form">
+            <nav class="container container_form">
+                <figure class="review">
+                    <div class="review_scr"><img src="img/review.png" alt="boxpic1">
+                    </div>
 
+                    <div>
+                        <p class="reviver_Vest"><i>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
+                                purus
+                                condimentum“</i></p>
+                    </div>
+                </figure>
 
-        </nav>
+                <div class="review">
 
-    </footer>
-    <footer class="fullblack_footer">
-        <nav class="container container__logo">
-            <div class="left">
+                    <div class="reviwer_text">
+                        <h3 class="review-h3-text">SUBSCRIBE
+                        </h3>
+                        <p>FOR OUR NEWLETTER AND PROMOTION</p>
+                    </div>
+                    <form class="form">
+                        <input class="form-input" type="email" name="Email" value="Enter Your Email" id="email">
+                        <button class="button">Subscribe</button>
+                    </form>
+            </nav>
+        </footer>
+        <div class="push"></div>
+    </div>
+    <footer class="fullblack">
+        <nav class="container container__logo cc">
+            <div class="left left1">
                 <div class="copyright_text">
                     <p> &copy; 2022 Brand All Rights Reserved.</p>
                 </div>
@@ -209,6 +207,7 @@
             </div>
         </nav>
     </footer>
+
 </body>
 
 </html>
