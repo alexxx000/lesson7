@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
+    <link rel="icon" type="icon" href="img/logo.svg">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/bbd8714ccc.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +27,7 @@
                 <li class="menu1"><a href="#"><img src="img/menu.svg" alt="menu-pic"></a>
                     <div class="mega-box">
                         <div class="mega-item">
-                            <h3 class="filter-sum-menu">MENU</h3>
+                            <h3 class="mega-heading-menu">MENU</h3>
                             <h3 class="mega-heading">man</h3>
                             <a class="mega-link" href="#">Accessories</a>
                             <a class="mega-link" href="#">Bags</a>
@@ -52,7 +53,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="menu2"><a href="#">
+                <li class="menu2"><a href="registration.html">
                         <div class="addbasket"><img src="img/sign-in.svg" alt="sign-in-pic"></div>
                     </a>
                 </li>
@@ -68,19 +69,16 @@
             </ul>
         </nav>
     </header>
-
-
-
     <nav class="twolinlk">
         <nav class="container container__logo">
             <div class="productlink"><a class="twolinlk-left" href="#">
                     <h3 class="h3-arrivals"> NEW ARRIVALS</h3>
                 </a></div>
             <div class="productlink"><a class="twolinlk-right" href="index.html">
-                    <p class="dezactive"> HOME /&nbsp;</p>
+                    <p class="active"> HOME /&nbsp;</p>
                 </a>
                 <a class="twolinlk-right" href="#">
-                    <p class="dezactive"> MEN /&nbsp;</p>
+                    <p class="active"> MEN /&nbsp;</p>
                 </a>
                 <a class="twolinlk-right" href="#">
                     <p class="active"> NEW
@@ -97,7 +95,7 @@
         </div>
     </aside>
     <section>
-        <div class="container product-content">
+        <article class="container product-content">
             <h3 class="pc-h3">WOMEN COLLECTION</h3>
             <hr class="hrprod">
             <h3 class="pc-h3-2">MOSCHINO CHEAP AND CHIC</h3>
@@ -108,7 +106,7 @@
             </p>
             <p class="box-price">$561</p>
             <hr class="hrprod2">
-            <div class="pc-menu">
+            <form class="pc-menu">
                 <details class="pc-details">
                     <summary class="pc-summary">CHOOSE COLOR</summary>
                     <p class="pdetails">Lorem, ipsum dolor. </p>
@@ -125,14 +123,14 @@
 
 
 
-            </div>
+            </form>
             <a class="pc-add" href="#">
-                <img src="img/basket-red.svg" alt="backet">
+                <i class="fa fa-solid fa-cart-shopping"></i>
 
                 <p class="add-ps-text">Add to Cart</p>
             </a>
-        </div>
 
+        </article>
 
     </section>
     <section>
@@ -225,7 +223,7 @@
     </footer>
     <footer class="for-form">
         <nav class="container container_form">
-            <div class="review">
+            <figure class="review">
                 <div class="review_scr"><img src="img/review.png" alt="boxpic1">
                 </div>
 
@@ -234,7 +232,7 @@
                             purus
                             condimentum“</i></p>
                 </div>
-            </div>
+            </figure>
 
             <div class="review">
 
@@ -243,12 +241,12 @@
                     </h3>
                     <p>FOR OUR NEWLETTER AND PROMOTION</p>
                 </div>
-                <div class="form">
-                    <div><input class="form-input" type="email" name="Email" value="Enter Your Email" id="email">
-                    </div>
-                    <div><button class="button">Subscribe</button></div>
-                </div>
-            </div>
+                <form class="form">
+                    <input class="form-input" type="email" name="Email" value="Enter Your Email" id="email">
+
+                    </a><button class="button">Subscribe</button>
+
+                </form>
 
         </nav>
 

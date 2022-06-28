@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalog</title>
+    <link rel="icon" type="icon" href="img/logo.svg">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/bbd8714ccc.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,11 +54,11 @@
 
                     </div>
                 </li>
-                <li class="menu2"><a href="#">
+                <li class="menu2"><a href="registration.html">
                         <div class="addbasket"><img src="img/sign-in.svg" alt="sign-in-pic"></div>
                     </a>
                 </li>
-                <li class="menu3"><a href="#">
+                <li class="menu3"><a href="cart.html">
                         <div class="addbasket"><img src="img/basket.svg" alt="basket-pic">
                             <div class="addprodukt"><img src="img/Ellipse.png" alt="Ellipse"></div>
                             <div class="addproduktN">
@@ -72,15 +73,15 @@
 
 
     <nav class="twolinlk">
-        <nav class="container container__logo">
+        <nav class="container container__productlink">
             <div class="productlink"><a class="twolinlk-left" href="#">
                     <h3 class="h3-arrivals"> NEW ARRIVALS</h3>
                 </a></div>
             <div class="productlink"><a class="twolinlk-right" href="index.html">
-                    <p class="dezactive"> HOME /&nbsp;</p>
+                    <p class="active"> HOME /&nbsp;</p>
                 </a>
                 <a class="twolinlk-right" href="#">
-                    <p class="dezactive"> MEN /&nbsp;</p>
+                    <p class="active"> MEN /&nbsp;</p>
                 </a>
                 <a class="twolinlk-right" href="#">
                     <p class="active"> NEW
@@ -90,7 +91,7 @@
         </nav>
     </nav>
     <section>
-        <div class="container container__logo">
+        <div class="container container_filter">
             <section class="sec-filter">
 
                 <div class="filter">
@@ -181,16 +182,32 @@
                 <div class="filter-link">
                     <div class="pc-menu">
                         <details class="pc-details">
-                            <summary class="pc-summary">CHOOSE COLOR</summary>
+                            <summary class="pc-summary">TRENDING NOW</summary>
                             <p class="pdetails">Lorem, ipsum dolor. </p>
                         </details>
                         <details class="pc-details">
-                            <summary class="pc-summary">CHOOSE SIZE</summary>
-                            <p class="pdetails">Lorem, ipsum dolor.</p>
+                            <summary class="pc-summary">SIZE </summary>
+                            <fieldset>
+                                <div>
+                                    <input type="checkbox" id="XS-size" name="XS-size" checked>
+                                    <label for="XS-size">XS</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="S-size" name="S-size" checked>
+                                    <label for="S-size">S</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="M-size" name="M-size" checked>
+                                    <label for="M-size">M</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="L-size" name="L-size" checked>
+                                    <label for="L-size">L</label>
+                                </div>
+                            </fieldset>
                         </details>
                         <details class="pc-details">
-                            <summary class="pc-summary">QUANTITY</summary>
-                            <p class="pdetails">Lorem, ipsum dolor.</p>
+                            <summary class="pc-summary">PRICE</summary>
                         </details>
                     </div>
                 </div>
@@ -345,9 +362,9 @@
                 <a href="#">
                     <p class="number-page">6</p>
                 </a>
-                <a href="#">
-                    <p class="number-page">...</p>
-                </a>
+
+                <p>...</p>
+
                 <a href="#">
                     <p class="number-page">20</p>
                 </a>
@@ -382,7 +399,7 @@
     </footer>
     <footer class="for-form">
         <nav class="container container_form">
-            <div class="review">
+            <figure class="review">
                 <div class="review_scr"><img src="img/review.png" alt="boxpic1">
                 </div>
 
@@ -391,7 +408,7 @@
                             purus
                             condimentum“</i></p>
                 </div>
-            </div>
+            </figure>
 
             <div class="review">
 
@@ -400,18 +417,17 @@
                     </h3>
                     <p>FOR OUR NEWLETTER AND PROMOTION</p>
                 </div>
-                <div class="form">
-                    <div><input class="form-input" type="email" name="Email" value="Enter Your Email" id="email">
-                    </div>
-                    <div><button class="button">Subscribe</button></div>
-                </div>
+                <form class="form">
+                    <input class="form-input" type="email" name="Email" value="Enter Your Email" id="email">
+                    <button class="button">Subscribe</button>
+                </form>
             </div>
 
         </nav>
 
     </footer>
     <footer class="fullblack">
-        <nav class="container container__logo">
+        <nav class="container container__logo cc">
             <div class="left">
                 <div class="copyright_text">
                     <p> &copy; 2022 Brand All Rights Reserved.</p>
